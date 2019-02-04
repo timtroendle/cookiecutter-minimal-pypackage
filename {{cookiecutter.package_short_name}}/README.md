@@ -1,5 +1,7 @@
 # {{ cookiecutter.package_name }}
 
+[![Build Status](https://travis-ci.org/{{ cookiecutter.github_name }}/{{ cookiecutter.package_short_name}}.svg)](https://travis-ci.org/{{ cookiecutter.github_name }}/{{ cookiecutter.package_short_name}})
+
 {{ cookiecutter.short_description }}
 
 ## User Guide
@@ -28,7 +30,7 @@ pip install git+git://github.com/{{ cookiecutter.github_name }}/{{ cookiecutter.
 
 Best install `{{ cookiecutter.package_short_name }}` in editable mode:
 
-    $ pip install -e .
+    $ pip install -r requirements-test.txt
 
 ### Run the test suite
 
